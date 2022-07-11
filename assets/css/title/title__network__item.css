@@ -1,0 +1,31 @@
+.title__network__item a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: chocolate;
+    text-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.title__network__item a:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.title__network__item a img {
+    width: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .title__network__item {
+        font-size: .75rem;
+    }
+
+    .title__network__item a img {
+        width: 1rem;
+    }
+}

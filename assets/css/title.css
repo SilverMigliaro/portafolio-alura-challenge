@@ -1,0 +1,13 @@
+.title {
+    background: #333333;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #ff814a;
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline 5px white;
+}

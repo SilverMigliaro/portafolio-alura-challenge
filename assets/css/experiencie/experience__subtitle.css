@@ -1,0 +1,16 @@
+.experience__subtitle {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 1.375rem;
+    color: #333333;
+    text-shadow: 2px 2px 5px lightslategray;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .experience__subtitle {
+        font-size: 0.857rem;
+    }
+}

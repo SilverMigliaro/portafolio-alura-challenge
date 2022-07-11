@@ -1,0 +1,4 @@
+.cuadros {
+    display: flex;
+    flex-direction: column;
+}

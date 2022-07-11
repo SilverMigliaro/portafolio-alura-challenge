@@ -1,0 +1,22 @@
+.title__subsection {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.375rem;
+    color: #e7e7e7;
+    text-shadow: 2px 2px 5px black;
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+    .title__subsection {
+        text-align: justify;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .title__subsection {
+        font-size: 1.125rem;
+    }
+}

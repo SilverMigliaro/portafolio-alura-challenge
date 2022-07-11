@@ -1,0 +1,21 @@
+.title__bio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #ff814a;
+    text-shadow: 2px 2px 5px black;
+    padding: 1rem 0;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 768px) {
+    .title__bio {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .title__bio {
+        font-size: 1.5rem;
+    }
+}

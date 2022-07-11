@@ -1,0 +1,10 @@
+.about__profile {
+    width: 30vw;
+    height: 35vh;
+}
+
+@media screen and (max-width: 768px) {
+    .about__profile {
+        display: none;
+    }
+}

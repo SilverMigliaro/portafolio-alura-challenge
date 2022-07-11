@@ -1,0 +1,13 @@
+.about {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 2rem;
+    }
+}

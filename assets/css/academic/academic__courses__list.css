@@ -1,0 +1,22 @@
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #333333;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    width: 100%;
+    height: 100%;
+}
+
+.academic__courses__list h4 {
+    text-align: center;
+}
+
+.academic__courses__list p {
+    text-align: center;
+    padding-bottom: 1rem;
+}

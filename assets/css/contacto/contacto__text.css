@@ -1,0 +1,7 @@
+.contacto__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem 1rem 1rem;
+}

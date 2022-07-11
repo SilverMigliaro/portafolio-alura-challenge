@@ -1,0 +1,16 @@
+.about__container {
+    background: #222222;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px orange;
+    padding: 1rem;
+    display: flex;
+    width: 80%;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .about__container {
+        width: auto;
+    }
+}

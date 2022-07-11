@@ -1,0 +1,16 @@
+.contacto__title {
+    text-transform: uppercase;
+    color: #ff814a;
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline 5px white;
+    padding-bottom: 1rem;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 425px) {
+    .contato__title {
+        font-size: 1.5rem;
+    }
+}

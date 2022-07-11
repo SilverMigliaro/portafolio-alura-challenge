@@ -1,0 +1,31 @@
+.footer {
+    background: #111111;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+.footer img {
+    height: 1.5rem;
+    width: auto;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+
+    .footer p {
+        font-size: 0.875rem;
+    }
+
+    .footer img {
+        height: 0.875rem;
+    }
+}

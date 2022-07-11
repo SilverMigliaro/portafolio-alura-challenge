@@ -1,0 +1,37 @@
+.menu {
+    display: flex;
+    background: #111111;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.menu nav .menu__list__item__contato a {
+    display: none;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 768px) {
+
+    .menu nav .menu__list__item__contato a {
+        display: block;
+        color: #ff814a;
+        font-family: 'Montserrat', cursive;
+    }
+
+    .menu nav .menu__list__item__contato a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .menu {
+        justify-content: center;
+    }
+
+    .menu nav .menu__list__item__contato a {
+        display: none;
+    }
+}

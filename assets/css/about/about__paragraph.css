@@ -1,0 +1,23 @@
+.about__paragraph {
+    font-size: 1.125rem;
+    color: #e7e7e7;
+    text-shadow: 2px 2px 5px black;
+    line-height: 1.5rem;
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+    .about__paragraph {
+        text-align: justify;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 425px) {
+    .about__paragraph {
+        font-size: .875rem;
+        margin-bottom: 1rem;
+    }
+}

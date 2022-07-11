@@ -1,0 +1,20 @@
+.experience__boton {
+    font-family: 'Montserrat', sans-serif;
+    background: #333333;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.experience__boton:hover {
+    background: #ff814c;
+}
+
+@media screen and (max-width: 768px) {
+    .experience__list__item {
+        font-size: .5rem;
+    }
+}

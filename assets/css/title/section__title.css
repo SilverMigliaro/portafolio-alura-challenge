@@ -1,0 +1,19 @@
+.section__title {
+    padding: 3rem;
+    background-image: url("/assets/img/title.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Responsive*/
+@media screen and (max-width: 768px) {
+    .section__title {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section__title {
+        padding: .5rem;
+    }
+}
