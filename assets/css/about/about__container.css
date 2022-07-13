@@ -1,10 +1,10 @@
 .about__container {
-    background: #222222;
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px orange;
-    padding: 1rem;
     display: flex;
     width: 80%;
+    padding: 1rem;
+    background: var(--color-background-title);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px orange;
 }
 
 /* Responsive */

@@ -1,10 +1,9 @@
 .menu {
     display: flex;
-    background: #111111;
     align-items: center;
     justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 1rem;
+    background: var(--color-background-menu);
 }
 
 .menu nav .menu__list__item__contato a {
@@ -17,8 +16,7 @@
 
     .menu nav .menu__list__item__contato a {
         display: block;
-        color: #ff814a;
-        font-family: 'Montserrat', cursive;
+        color: var(--color-title);
     }
 
     .menu nav .menu__list__item__contato a:hover {

@@ -1,5 +1,5 @@
 .footer {
-    background: #111111;
+    background: var(--color-background-menu);
     height: 3rem;
     display: flex;
     align-items: center;
@@ -7,16 +7,15 @@
 }
 
 .footer p {
-    color: antiquewhite;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    padding-right: 1rem;
+    color: var(--color-letter);
+    font-size: var(--size-letter);
+    margin-right: 1rem;
 }
 
 .footer img {
     height: 1.5rem;
     width: auto;
-    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 @media screen and (max-width: 425px) {

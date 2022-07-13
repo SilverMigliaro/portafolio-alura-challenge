@@ -1,16 +1,17 @@
 .experience__boton {
     font-family: 'Montserrat', sans-serif;
-    background: #333333;
-    font-size: 1rem;
-    color: white;
+    background: var(--color-background-title);
+    font-size: var(--size-letter);
+    color: var(--color-letter);
     border-radius: 5px;
-    margin: 1rem;
+    padding: .5rem;
+    margin: 0 1rem;
     border: none;
     cursor: pointer;
 }
 
 .experience__boton:hover {
-    background: #ff814c;
+    background: var(--color-title);
 }
 
 @media screen and (max-width: 768px) {

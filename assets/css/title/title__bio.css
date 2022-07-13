@@ -1,7 +1,6 @@
 .title__bio {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    color: #ff814a;
+    color: var(--color-title);
     text-shadow: 2px 2px 5px black;
     padding: 1rem 0;
 }

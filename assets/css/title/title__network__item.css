@@ -1,12 +1,11 @@
 .title__network__item a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    color: chocolate;
-    text-shadow: 2px 2px black;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding-right: 1rem;
+    font-size: var(--size-letter-title-link);
+    color: var(--color-title);
+    text-shadow: 2px 2px black;
+    margin-right: 1rem;
 }
 
 .title__network__item a:hover {
@@ -16,7 +15,7 @@
 
 .title__network__item a img {
     width: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: var(--color-backgound-link);
     border-radius: 5px;
 }
 

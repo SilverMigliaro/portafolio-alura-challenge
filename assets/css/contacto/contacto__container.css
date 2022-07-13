@@ -1,16 +1,147 @@
 .contacto__container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.contacto__input, .contacto__textarea {
+.contacto__label {
+    color: var(--color-title);
+    font-size: var(--size-letter);
+    padding: 0.625rem 0.625rem 0.625rem 0;
+    cursor: pointer;
+}
+
+/* ----- ----- Div input  ----- ----- */
+.contacto__container-input {
+    position: relative;
+}
+
+.contacto__input {
     width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-top: 0.625rem;
-    margin-bottom: 1rem;
-    resize: vertical
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+    transition: .3s ease all;
+}
+
+.contacto__input:focus {
+    border: 3px solid var(--color-focus);
+    outline: none;
+    box-shadow: 3px 0 30px rgba(163, 163, 163, 0.4);
+}
+
+.contacto__input-error {
+    font-size: 0.75rem;
+    color: var(--color-error);
+    margin-bottom: 0;
+    display: none;
+}
+
+.contacto__input-error-activo {
+    display: block;
+}
+
+.contacto__validacion-estado {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.9375rem;
+    z-index: 100;
+    font-size: 1rem;
+    opacity: 0;
+}
+
+/* ----- ----- Div Mensaje ----- ----- */
+
+.contacto__mensaje {
+    width: 100%;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    resize: none;
+    transition: .3s ease all;
+}
+
+.contacto__mensaje:focus {
+    border: 3px solid var(--color-focus);
+    outline: none;
+    box-shadow: 3px 0 30px rgba(163, 163, 163, 0.4);
+}
+
+/* ----- ----- Div Boton ----- ----- */
+.contacto__container-btn-enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.contacto__btn {
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+    width: 45%;
+    background: var(--color-submit);
+    color: var(--color-letter);
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.contacto__btn:hover {
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+    background: var(--color-submit-hover);
+}
+
+/* ----- ----- Mensaje de exito  ----- ----- */
+.contacto__mensaje-exito {
+    font-size: 0.875rem;
+    color: var(--color-exito);
+    display: none;
+    padding: 1rem;
+}
+
+.contacto__mensaje-exito-activo {
+    display: block;
+}
+
+/* ----- ----- Div mensaje de error ----- ----- */
+.contacto__mensaje-error {
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+    background: var(--color-error-mensaje);
+    padding: 0 0.9375rem;
+    border-radius: 3px;
+    display: none;
+}
+
+.contacto__mensaje-error p {
+    margin: 0;
+}
+
+.contacto__mensaje-error-activo {
+    display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.contacto__container-correcto .contacto__validacion-estado {
+    color: var(--color-valido);
+    opacity: 1;
+}
+
+.contacto__container-incorrecto .contacto__label {
+    color: var(--color-error);
+}
+
+.contacto__container-incorrecto .contacto__validacion-estado {
+    color: var(--color-error);
+    opacity: 1;
+}
+
+.contacto__container-incorrecto .contacto__input {
+    border: 3px solid var(--color-error);
+}
+
+.contacto__container-incorrecto .contacto__mensaje {
+    border: 3px solid var(--color-error);
 }

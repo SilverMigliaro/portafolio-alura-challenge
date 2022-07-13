@@ -1,4 +1,4 @@
-.section__title {
+.title {
     padding: 3rem;
     background-image: url("/assets/img/title.jpg");
     background-size: cover;
@@ -7,13 +7,13 @@
 
 /* Responsive*/
 @media screen and (max-width: 768px) {
-    .section__title {
+    .title {
         padding: 1rem;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .section__title {
+    .title {
         padding: .5rem;
     }
 }

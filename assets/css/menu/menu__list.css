@@ -1,3 +1,31 @@
 .menu__list {
     display: flex;
+    align-items: center;
+}
+
+.menu__list__item {
+    list-style: none;
+}
+
+.menu__list__item a {
+    color: var(--color-letter);
+    padding-right: .75rem;
+    text-decoration: none;
+}
+
+.menu__list__item .activo {
+    color: var(--color-title);
+}
+
+.menu__list__item a:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px blue;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 768px) {
+    .menu__list__item {
+        display: none;
+    }
 }

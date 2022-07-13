@@ -1,9 +1,15 @@
 .menu__header {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .menu__header img {
     width: auto;
     height: 2.625rem;
+}
+
+.menu__title {
+    color: var(--color-letter);
+    font-size: var(--size-letter);
 }

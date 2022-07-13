@@ -1,8 +1,7 @@
 .about__title {
-    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #ff814a;
-    font-size: 1.75rem;
+    color: var(--color-title);
+    font-size: var(--size-title);
     text-shadow: 2px 2px 5px black;
     text-decoration: underline 5px white;
     margin-bottom: 1rem;
@@ -13,6 +12,5 @@
     .about__title {
         font-size: 1.125rem;
         text-align: center;
-        margin-bottom: 1rem;
     }
 }

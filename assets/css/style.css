@@ -1,12 +1,33 @@
 :root {
-    --cor-de-fundo: #e7e7e7;
-    --cor-de-link: #000;
+
+    --size-title: 1.75rem;
+    --size-letter: 1rem;
+    --size-letter-title-link: 1.2rem;
+    --size-paragraph: 1.375rem;
+    --size--about: 1.125rem;
+    --size-card-title: 1.625rem;
+    --color-focus: #0075FF;
+    --color-background: #e7e7e7;
+    --color-link: #000;
+    --color-title: #ff814c;
+    --color-subtitle: #333333;
+    --color-background-title: #222222;
+    --color-background-menu: #111111;
+    --color-letter: #FFFFFF;
+    --color-backgound-link: rgba(255, 255, 255, 0.3);
+    --color-background-title-div: rgba(0, 0, 0, 0.4);
+    --color-submit: #04AA6D;
+    --color-submit-hover: lightcoral;
+    --color-error: #bb2929;
+    --color-error-mensaje: #F66060;
+    --color-valido: #1ed12d;
+    --color-exito: #119200;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo);
-    font-family: 'Montserrat';
+    background-color: var(--color-background);
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -18,5 +39,5 @@ ol, ul, li {
 
 a {
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: var(--color-link);
 }
