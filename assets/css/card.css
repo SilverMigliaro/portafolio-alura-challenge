@@ -22,7 +22,11 @@
     margin: 1rem;
     border: 1px solid black;
     border-radius: 5px;
+}
 
+.card__box ul {
+    margin: 0;
+    padding: 0;
 }
 
 .card__img {

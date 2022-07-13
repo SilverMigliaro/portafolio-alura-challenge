@@ -1,6 +1,6 @@
 .title {
     padding: 3rem;
-    background-image: url("./assets/img/title.jpg");
+    background-image: url("/assets/img/title.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
